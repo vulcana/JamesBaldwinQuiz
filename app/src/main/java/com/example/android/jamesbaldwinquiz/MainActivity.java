@@ -60,24 +60,24 @@ public class MainActivity extends AppCompatActivity {
 
 //        Determines if the user's analysis of their own in/expertise is correct based on their score
 
-        if (expertYes.isChecked() && score <=4) {
-            Toast.makeText(this, "Wrong you are! You only scored " + score + "/6", Toast.LENGTH_LONG).show();
+        if (expertYes.isChecked() && score <=3) {
+            Toast.makeText(this, "Wrong you are! You only scored " + score + "/5", Toast.LENGTH_LONG).show();
         }
         else if (expertYes.isChecked() && score >=5) {
-            Toast.makeText(this, "You are indeed an expert! Well done on scoring " + score + "/6", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "You are indeed an expert! Well done on scoring " + score + "/5", Toast.LENGTH_LONG).show();
         }
 
         else if (expertNo.isChecked() && score <=4) {
-            Toast.makeText(this, "Afraid you're right, you only scored " + score + "/6", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Afraid you're right, you only scored " + score + "/5", Toast.LENGTH_LONG).show();
         }
 
         else {
-            Toast.makeText(this, "Back yourself! You actually scored " + score + "/6", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, "Back yourself! You actually scored " + score + "/5", Toast.LENGTH_LONG).show();
         }
 
 //        Displays score
 
-        scoreTextView.setText("Your score is: " + score + "/6");
+        scoreTextView.setText("Your score: " + score + "/5");
 
         return score;
 
