@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Think You Know James Baldwin?</string>
+    <string name="question_1">Which of these photographs is of James Baldwin?</string>
+    <string name="question_2">Which year was James Baldwin born?</string>
+    <string name="question_3">What is the name of James Baldwin\'s first novel?</string>
+    <string name="question_4">Where did James Baldwin famously move to in 1945?</string>
+    <string name="question_5">Whose novel does the title of <i>Notes of a Native Son</i> reference?</string>
+    <string name="question_6">Do you think you\'re a James Baldwin expert?</string>
+    <string name="submit">Submit Quiz</string>
+    <string name="baldwin_first_work">Title</string>
+    <string name="city1">New York</string>
+    <string name="city2">Chicago</string>
+    <string name="city3">San Francisco</string>
+    <string name="image1">Image 1</string>
+    <string name="image2">Image 2</string>
+    <string name="image3">Image 3</string>
+    <string name="reference1">Charles Dickens</string>
+    <string name="reference2">Jane Austen</string>
+    <string name="reference3">Richard Wright</string>
+    <string name="expert_yes">Yessiree!</string>
+    <string name="expert_no">No way!</string>
+    <string-array name="dates_array">
+        <item>1918</item>
+        <item>1919</item>
+        <item>1920</item>
+        <item>1921</item>
+        <item>1922</item>
+        <item>1923</item>
+        <item>1924</item>
+        <item>1925</item>
+    </string-array>
+</resources>
